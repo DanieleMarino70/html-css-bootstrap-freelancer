@@ -11,7 +11,7 @@ header{
 
 section{
     /* debug */
-    height: 1000px;
+    min-height: 500px;
 }
 
 section:nth-child(odd){
@@ -36,3 +36,17 @@ header > .container > .row{
     min-height: 6rem;
 }
 
+/* UTILS */
+.dash{
+    display: inline-block;
+    width:15%;
+    height: 0.3rem;
+    background-color: #fff;
+}
+
+.star{
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+    vertical-align: middle;
+}
