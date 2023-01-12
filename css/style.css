@@ -1,0 +1,38 @@
+/* RESET */
+ul li {
+    list-style: none; 
+}
+
+/* GENERAL */
+header{
+    min-height: 6rem;
+    background-color: #2c3e50;
+}
+
+section{
+    /* debug */
+    height: 1000px;
+}
+
+section:nth-child(odd){
+    background-color: #1abc9c;
+}
+
+footer .footer-top{
+    background-color: #3a546d;
+    /* debug */
+    height: 800px;
+}
+
+footer .footer-bottom{
+    background-color: #2c3e50;
+    /* debug */
+    height: 200px;
+}
+
+
+
+header > .container > .row{
+    min-height: 6rem;
+}
+
