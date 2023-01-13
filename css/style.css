@@ -85,7 +85,8 @@ ul > li.circle i {
 }
 
 .border-bot{
-    border-bottom: 1px solid #cccccc;
+    border: none !important;
+    border-bottom: 1px solid #cccccc !important;
 }
 
 .message{
