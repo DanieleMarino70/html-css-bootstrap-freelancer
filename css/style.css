@@ -122,7 +122,9 @@ ul > li.circle i {
 }
 
 /* main */
-
+.jumbo-img{
+    width: 14rem;
+}
 /* footer */
 
 .footer-top{
