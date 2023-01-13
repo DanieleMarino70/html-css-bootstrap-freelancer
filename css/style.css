@@ -19,7 +19,9 @@ section:nth-child(odd),
     background-color: #1abc9c;
     color: white;
 }
-
+section .container .row h1{
+    font-size: 3rem;
+}
 h1,
 h2,
 p{
@@ -88,7 +90,7 @@ ul > li.circle i {
 
 .message{
     position:relative;
-    min-height: 100px;
+    min-height: 10rem;
 }
 
 .line-end-message{
