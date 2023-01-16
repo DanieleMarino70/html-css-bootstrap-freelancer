@@ -205,26 +205,26 @@
                     </div>
                 </div>
 
-                <form class="row flex-column align-items-center mb-3">
+                <form action="" method="GET" class="row flex-column align-items-center mb-3" target="_blank">
 
                     <div class="col-8 col-md-9">
-                        <input type="text" placeholder="Name" class="name border-bot pb-3 w-100">
+                        <input type="text" name="name" placeholder="Name" class="name border-bot pb-3 w-100">
                     </div>
 
                     <div class="col-8 col-md-9">
-                        <input type="text" placeholder="Email Address" class="name border-bot pb-3 w-100">
+                        <input  type="email" name="email" placeholder="Email Address" class="name border-bot pb-3 w-100">
                     </div>
 
                     <div class="col-8 col-md-9">
-                        <input type="text" placeholder="Phone Number" class="name border-bot pb-3 w-100">
+                        <input type="tel" name="phone-number" placeholder="Phone Number" class="name border-bot pb-3 w-100">
                     </div>
 
                     <div class="col-8 col-md-9 pb-2">
-                        <textarea placeholder="Message" class="message border-bot w-100"></textarea>
+                        <textarea placeholder="Message" name="message-text" class="message border-bot w-100"></textarea>
                     </div>
 
-                    <div class="col-8 mb-4">
-                        <button class="btn btn-success">Send</button>
+                    <div class="col-8 col-md-9 mb-4">
+                        <input  type="submit"  value="Send" class="btn btn-success">
                     </div>
                 </form>
 
